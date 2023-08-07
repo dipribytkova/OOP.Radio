@@ -17,6 +17,7 @@ class RadioTest {
         Radio radio = new Radio();
         Assertions.assertEquals(10, radio.getQuantityStation());
     }
+
     @Test
     public void shouldSetCurrentStation() {
         Radio radio = new Radio(23);
