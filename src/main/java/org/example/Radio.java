@@ -5,11 +5,11 @@ public class Radio {
     private int currentStation;
     private int currentVolume;
 
-    public Radio (int quantityStation) {
-    this.quantityStation = quantityStation;
+    public Radio(int quantityStation) {
+        this.quantityStation = quantityStation;
     }
 
-    public Radio () {
+    public Radio() {
     }
 
     public int getQuantityStation() {
